@@ -2,7 +2,6 @@
 require 'pry'
 
 def prime?(number)
-  binding.pry
   start = 2
     if number > 1
       number_array = (start..number-1).to_a
@@ -12,5 +11,6 @@ def prime?(number)
   else
     false 
   end
+  # binding.pry
 end
 
